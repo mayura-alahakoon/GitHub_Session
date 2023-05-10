@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction to GitHub</title>
+	<!-- VueJS CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="app">
+		<h1>{{ title }}</h1>
+		<p>{{ description }}</p>
+		<p>Presented by {{ presenter }}</p>
+		<a :href="registrationLink">Register now!</a>
+	</div>
+    <br>
+
+	<section>
+		<h2>About Us</h2>
+		<p>We are a group of students at XYZ University who are passionate about programming and want to share our knowledge with others.</p>
+	</section>
+
+	<section>
+		<h2>Contact Us</h2>
+		<p>Email: contact@githubintro.com</p>
+		<p>Phone: 123-456-7890</p>
+		<p>Address: 123 Main Street, Anytown, USA</p>
+	</section>
+
+	<script>
+		var app = new Vue({
+			el: '#app',
+			data: {
+				title: 'Introduction to GitHub',
+				description: 'Learn the basics of using GitHub',
+				presenter: 'Your Name and Your Friend Name',
+				registrationLink: 'https://your-registration-link.com'
+			}
+		});
+	</script>
+</body>
+</html>
