@@ -11,19 +11,19 @@ body {
   
   #about-us {
     background-color: #f9f9f9;
-    padding: 40px;
+    padding: 20px;
   }
   
   #about-us h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
   }
   
   #about-us p {
     font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center;
   }
   
@@ -32,6 +32,8 @@ body {
     font-weight: bold;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
+    text-align: center;
+    align-items: center;
   }
   
   #about-us a:hover {
