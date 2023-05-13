@@ -9,11 +9,41 @@ body {
     
   }
   
+  #about-us {
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  
+  #about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #about-us p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #about-us a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #about-us a:hover {
+    color: #ff4500;
+  }
+  
+  
   #app {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #222;
+    background-color: #040a42;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
   }
